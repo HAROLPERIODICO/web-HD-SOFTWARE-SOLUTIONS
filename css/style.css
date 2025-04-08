@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 :root {
     --padding-container: 100px 0;
@@ -208,7 +208,7 @@ body {
 }
 
 .price__element{
-    background-color: #e5e5f7;
+    background-color: #1D293F;
     text-align: center;
     border-radius: 10px;
     width: 330px;
