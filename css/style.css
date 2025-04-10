@@ -208,11 +208,9 @@ body {
 }
 
 .price__element{
-    background-color:808080;
-    text-align: center;
-    border-radius: 10px;
-    width: 330px;
-    padding: 40px;
+    width: 325px;
+    padding: 50px 40px;
+    background-color: #e5e5f7;
     --color-plan: #696871;
     --color-price: #1D293F;
     --bg-cta: black;
