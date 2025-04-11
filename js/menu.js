@@ -9,4 +9,4 @@
 
     closeMenu.addEventListener('click', ()=>{
         menu.classList.remove('nav__link--show');
-    });
+    })();
