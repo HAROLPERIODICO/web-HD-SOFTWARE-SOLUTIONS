@@ -101,6 +101,52 @@
                     <h2 class="subtitle">Adaptarse para avanzar y digitalizar para decidir mejor ¡Trasformación DIGITAL ahora!</h2>
                     <p class="knowledge__paragraph">En la era digital, no tener una página web es perder oportunidades. Una web profesional te ayuda a atraer clientes, fortalecer tu marca y aumentar tus ventas. Destaca frente a la competencia y haz que tu negocio crezca. ¡Invierte en tu éxito y crea tu página web hoy! 🚀</p>
                     <a href="#" class="cta">Contáctanos</a>
+                    <form action="index.php" method="post">
+								<div class="from-block">
+									<input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+								</div>
+                                <div>
+                                </div class="from-block">
+                                    <input type="tel" name="phone" class="form-control" placeholder="Ej: 1234567890" required>
+								<div class="from-block">
+									<input type="email" name="email" class="form-control" placeholder="Email" required>
+								</div>
+								<div class="from-block">
+									<textarea name="mensaje" placeholder="Mensaje"></textarea>
+								</div>
+								<div class="from-block bloque-ultimo">
+									<input type="submit" class="boton boton-negro" value="Enviar">
+								</div>
+								<?php
+
+									if($_SERVER["REQUEST_METHOD"] == "POST")
+									{
+										$nombre = $_POST["nombre"] ;
+                                        $tel = $_POST["phone"] ;
+										$email = $_POST["email"] ;
+										$mensaje = $_POST["mensaje"] ;
+
+										if(isset($nombre))
+										{
+											if(isset($email))
+											{
+												if(isset($mensaje))
+												{
+													$para = "haroldiazmelendez@gmail.com";
+													$asunto = "NUEVO CLIENTE";
+													$cuerpo = $nombre."\n".$tel."\n".$email."\n".$mensaje;
+													$adicional = "From: noreply@gmail.com";
+
+													mail($para,$asunto,$cuerpo,$adicional);
+												?>
+													
+												<?php
+												}
+											}
+										}
+									}
+								?>	
+							</form>
                 </div>
 
                 <figure class="knowledge__picture">
@@ -114,12 +160,12 @@
 
             <div class="price__table">
                 <div class="price__element">
-                    <h2 class="price__price">📌Servicios de Programación web</h2>
+                    <h2 class="price__price">📌 Servicios de Programación Web</h2>
                     <p class="price__name">Obtén tu Página WEB y Dominio</p>
                     <div class="price__items">
                         <p class="price__features">✅Sitios web corporativos</p>
                         <p class="price__features">✅Landing pages</p>
-                        <p class="price__features">✅Blogs y páginas</p>
+                        <p class="price__features">✅Blogs y páginas personales</p>
                         <p class="price__features">✅Tiendas en línea</p>    
                      </div>
                      <h2 class="price__price">$30.000/mes</h2>
@@ -156,9 +202,9 @@
                     <h2 class="price__price">📌Marketing Digital</h2>
                     <p class="price__name">Gestión de redes sociales</p>
                     <div class="price__items">
-                        <p class="price__features">👉Publicidad en Google Ads</p>
-                        <p class="price__features">🧭Automatización de marketing</p>
-                        <p class="price__features">📁Email marketing</p>
+                        <p class="price__features">✅Publicidad en Google Ads</p>
+                        <p class="price__features">✅Automatización de marketing</p>
+                        <p class="price__features">✅Email marketing</p>
                     </div>
                     <h4 class="price__price">$200.000/anual</h4>
                     <a href="#" class="price__cta">Contrata !YA¡</a>
@@ -169,9 +215,9 @@
                     <h3 class="price__price">📌Desarrollo de Software</h3>
                     <p class="price__name">Plataformas internas para empresas</p>
                     <div class="price__items">
-                        <p class="price__features">🔧Integraciones con APIs</p>
-                        <p class="price__features">🔎 Sistemas de control de inventarios y logística</p>
-                        <p class="price__features">🛠️Software a Medida</p>
+                        <p class="price__features">✅Integraciones con APIs</p>
+                        <p class="price__features">✅ Sistemas de control de inventarios y logística</p>
+                        <p class="price__features">✅Software a Medida</p>
                     </div>
                     <h4 class="price__price">$300.000/anual</h4>
                     <a href="#" class="price__cta">Contrata !YA¡</a>
@@ -188,10 +234,8 @@
                     <h4 class="price__price">$500.000/anual</h4>
                     <a href="#" class="price__cta">Contrata !YA¡</a>
                 </div>
-
             </div>
         </section>
-
         <section class="testimony">
             <div class="testimony__container container">
                 <img src="./img/leftarrow.svg" class="testimony__arrow" id="before">
@@ -216,7 +260,7 @@
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./img/Foto victor.jpg" class="testimony__img">
+                        <img src="./img/face4.jpg" class="testimony__img">
                     </figure>
                 </section>
 
@@ -328,7 +372,7 @@
         <section class="footer__copy container">
             <div class="footer__social">
                 <a href="#" class="footer__icons"><img src="./img/facebook.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./img/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./img/whatsapp-3.svg" class="footer__img"></a>
                 <a href="#" class="footer__icons"><img src="./img/youtube.svg" class="footer__img"></a>
             </div>
 
