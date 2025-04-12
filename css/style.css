@@ -220,14 +220,15 @@ body {
 }
 
 .price__element--best{
-    width: 325px;
-    padding: 50px 40px;
-    background-color: #e5e5f7;
-    --color-plan: #696871;
-    --color-price: #1D293F;
-    --bg-cta: black;
-    --color-cta: #fff;
-    --color-items: #696871;
+    width: 370px;
+    padding: 60px 40px;
+    background-color: #FF7143;
+    --color-plan: rgb(255 255 255 / 75%);
+    --color-price: #fff;
+    --bg-cta: #9F3919;
+    --color-cta: #FFF;
+    --color-items: #fff;
+  
 }
 
 
