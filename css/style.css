@@ -273,7 +273,7 @@ body {
 .testimony__container{
     display: grid;
     grid-template-columns: 50px 1fr 50px;
-    gap: 1em;
+    gap: 2em;
     align-items: center;
 }
 
