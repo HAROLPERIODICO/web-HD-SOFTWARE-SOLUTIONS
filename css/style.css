@@ -224,10 +224,10 @@ body {
     padding: 50px 40px;
     background-color: #FF7143;
     --color-plan: rgb(255 255 255 / 75%);
-    --color-price: #fff;
+    --color-price: black;
     --bg-cta: #9F3919;
-    --color-cta: #FFF;
-    --color-items: #fff;
+    --color-cta: black;
+    --color-items: black;
   
 }
 
