@@ -483,7 +483,6 @@ body {
 @media (max-width:800px){
     .nav__menu{
         display: block;
-	position: relative;
     }
 
     .nav__link--menu{
