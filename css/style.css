@@ -132,7 +132,6 @@ body {
     margin-bottom: 25px;
 }
 
-
 .about__paragraph {
     line-height: 1.7;
 }
@@ -227,7 +226,6 @@ body {
     --bg-cta: #9F3919;
     --color-cta: black;
     --color-items: black;
-  
 }
 
 
@@ -272,7 +270,7 @@ body {
 .testimony__container{
     display: grid;
     grid-template-columns: 50px 1fr 50px;
-    gap: 2em;
+    gap: 1em;
     align-items: center;
 }
 
