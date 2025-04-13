@@ -482,8 +482,8 @@ body {
 
 @media (max-width:800px){
     .nav__menu{
-        display: none;
-	    position: relative;
+        display: block;
+	position: relative;
     }
 
     .nav__link--menu{
