@@ -435,6 +435,11 @@ body {
     overflow: hidden;
 }
 
+.footer__inputs texarea{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+}
 .footer__input{
     background-color: #fff;
     height: 50px;
