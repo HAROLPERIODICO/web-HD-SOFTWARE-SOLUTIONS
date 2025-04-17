@@ -34,4 +34,16 @@
             menu.classList.remove('nav__link--show');
         });
     });
+
+        // Cambiar estilo del header al hacer scroll
+    const header = document.querySelector('.hero');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('hero--scrolled');
+        } else {
+            header.classList.remove('hero--scrolled');
+        }
+    });
+
 })();
