@@ -11,7 +11,9 @@
         menu.classList.remove('nav__link--show');
     });
 
-    
+    		jQuery("html,body").animate({
+			"scrollTop": jQuery(dev).offset().top - 76
+		})
 
 
 })();
