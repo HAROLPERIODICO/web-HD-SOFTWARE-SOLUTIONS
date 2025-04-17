@@ -625,6 +625,14 @@ body {
         width: 100%;
     }
 
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    
     .footer__container{
         flex-wrap: wrap;
     }
