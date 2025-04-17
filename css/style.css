@@ -660,13 +660,6 @@ body {
 }
 
 @media (max-width:600px){
-   .hero {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #fff; /* o el fondo que uses */
-}
-
     
     .hero__title{
         font-size: 2rem;
