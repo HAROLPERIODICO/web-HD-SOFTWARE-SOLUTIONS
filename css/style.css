@@ -26,6 +26,9 @@ body {
     display: grid;
     grid-template-rows: 100px 1fr;
     color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .hero::before {
