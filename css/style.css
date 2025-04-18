@@ -329,6 +329,11 @@ body {
     flex-wrap: wrap;
 }
 
+.enlace-port {
+    text-decoration: none;
+    color: inherit;
+}
+
 .imagen-port{
     width: 24%;
     margin-bottom: 10px;
