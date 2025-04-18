@@ -346,7 +346,7 @@ body {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-port > img{
+.imagen-port img{
     width: 220px;
     height: 220px;
     object-fit: cover;
