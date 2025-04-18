@@ -323,17 +323,10 @@ body {
     background: #f2f2f2;
 }
 
-
-
 .galeria-port{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.enlace-port {
-    text-decoration: none;
-    color: inherit;
 }
 
 .imagen-port{
