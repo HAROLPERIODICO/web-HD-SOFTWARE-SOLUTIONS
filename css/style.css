@@ -339,7 +339,8 @@ body {
 
 
 .imagen-port{
-    width: 50%;
+    width: 24%;
+    height: 24%;
     margin-bottom: 10px
     overflow: hidden;
     position: relative;
