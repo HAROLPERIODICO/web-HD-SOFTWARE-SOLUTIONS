@@ -324,19 +324,20 @@ body {
 }
 
 .galeria-port {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .enlace-port {
     text-decoration: none;
     color: inherit;
-    display: block; /* muy importante */
 }
 
 
 .imagen-port{
+    width: 24%;
+    margin-bottom: 10px
     overflow: hidden;
     position: relative;
     cursor: pointer;
