@@ -644,13 +644,15 @@ body {
     
 
     .imagen-port{
-        width: 44%;
+        width: 50%;
     }
 
     
     .galeria-port {
         grid-template-columns: 1fr;
     }
+
+    
     
     .footer__container{
         flex-wrap: wrap;
