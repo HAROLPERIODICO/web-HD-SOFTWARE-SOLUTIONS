@@ -337,8 +337,6 @@ body {
 
 
 .imagen-port{
-    width: 24%;
-    margin-bottom: 10px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
