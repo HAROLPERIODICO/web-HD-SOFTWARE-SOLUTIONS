@@ -324,9 +324,11 @@ body {
 }
 
 .galeria-port {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, auto); /* cada columna toma solo el tamaño del contenido */
+    justify-content: center; /* centra las columnas */
+    gap: 20px;
+    margin-top: 30px;
 }
 
 .enlace-port {
