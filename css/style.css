@@ -636,23 +636,14 @@ body {
 
     /* Galeria */
 
-    .enlace-port {
-        text-decoration: none;
-        color: inherit;
-        display: block;
-    }
-    
-
-    .imagen-port{
-        width: 50%;
-    }
-
-    
     .galeria-port {
         grid-template-columns: 1fr;
     }
 
-    
+    .imagen-port{
+        width: 95%;
+    }
+
     
     .footer__container{
         flex-wrap: wrap;
@@ -684,12 +675,7 @@ body {
     
     .hero__title{
         font-size: 2rem;
-    }
-
-    .galeria-port {
-        grid-template-columns: 1fr;
-    }
-    
+    }  
 
     .hero__paragraph{
         font-size: 1rem;
@@ -730,6 +716,10 @@ body {
     }
 
      /* Galeria */
+
+    .galeria-port {
+        grid-template-columns: 1fr;
+    }
 
     .imagen-port{
         width: 95%;
