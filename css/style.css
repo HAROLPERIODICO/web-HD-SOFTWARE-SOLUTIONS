@@ -330,7 +330,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.contacto p {
+.footer.contacto p {
   margin-bottom: 2rem;
   color: #ffffff;
 }
@@ -349,7 +349,7 @@ body {
   font-size: 1rem;
 }
 
-.footer .info-contacto p {
+info-contacto p {
   margin-bottom: 1rem;
 }
 
