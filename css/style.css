@@ -459,6 +459,21 @@ body {
     background-color: #000103;
 }
 
+
+.info-contacto {
+  flex: 1 1 300px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.info-contacto p {
+  margin-bottom: 1rem;
+}
+
+.info-contacto a {
+  color: #d16e8d;
+  text-decoration: none;
+}
 .footer__title{
     font-weight: 300;
     font-size: 2rem;
