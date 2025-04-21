@@ -320,7 +320,7 @@ body {
 /* Contactos */
 .contacto {
   padding: 4rem 2rem;
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -332,7 +332,7 @@ body {
 
 .footer.contacto p {
   margin-bottom: 2rem;
-  color: #ffffff;
+  color: #555;
 }
 
 .contacto-grid {
@@ -349,8 +349,9 @@ body {
   font-size: 1rem;
 }
 
-info-contacto p {
+.info-contacto p {
   margin-bottom: 1rem;
+    color: #fff;
 }
 
 .info-contacto a {
