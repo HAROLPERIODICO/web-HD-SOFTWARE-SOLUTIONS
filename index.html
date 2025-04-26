@@ -376,7 +376,37 @@
                     </div>
                 </section> 
             
+                  <h1>Bienvenido</h1>
+                  <p>Haz clic en el botón para registrarte:</p>
+                  <button id="abrirFormulario">Registrarse</button>
+                                       <!-- Modal -->
+             <!--  <section class="froms_HD"></section>-->
+              <div id="modalFormulario" class="modal">
+                   <div class="modal-contenido">
+                      <span class="cerrar">&times;</span>
+                      <h2>Formulario complementario para tú Página Web</h2> 
+                     <iframe src="https://harolperiodico.github.io/HD_Froms" width="100%" height="600px" style="border:none;"></iframe>
+                    </div>
+              </div> 
+    <script>
+    const abrirBtn = document.getElementById('abrirFormulario');
+    const modal = document.getElementById('modalFormulario');
+    const cerrar = document.querySelector('.cerrar');
 
+    abrirBtn.onclick = () => {
+      modal.style.display = 'block';
+    }
+
+    cerrar.onclick = () => {
+      modal.style.display = 'none';
+    }
+
+    window.onclick = (e) => {
+      if (e.target == modal) {
+        modal.style.display = 'none';
+      }
+    }
+  </script>
       </main>
     <footer class="footer">
         <section class="footer__container container">
@@ -453,37 +483,7 @@
         </section>
 
     </footer>
-                  <h1>Bienvenido</h1>
-                  <p>Haz clic en el botón para registrarte:</p>
-                  <button id="abrirFormulario">Registrarse</button>
-                                       <!-- Modal -->
-             <!--  <section class="froms_HD"></section>-->
-              <div id="modalFormulario" class="modal">
-                   <div class="modal-contenido">
-                      <span class="cerrar">&times;</span>
-                      <h2>Formulario complementario para tú Página Web</h2> 
-                     <iframe src="https://harolperiodico.github.io/HD_Froms" width="150%" height="800px" style="border:none;"></iframe>
-                    </div>
-              </div> 
-    <script>
-    const abrirBtn = document.getElementById('abrirFormulario');
-    const modal = document.getElementById('modalFormulario');
-    const cerrar = document.querySelector('.cerrar');
 
-    abrirBtn.onclick = () => {
-      modal.style.display = 'block';
-    }
-
-    cerrar.onclick = () => {
-      modal.style.display = 'none';
-    }
-
-    window.onclick = (e) => {
-      if (e.target == modal) {
-        modal.style.display = 'none';
-      }
-    }
-  </script>
   <script src="js/menu.js"></script>	
   <script src="js/slider.js"></script>
   <script src="js/questions.js"></script>
