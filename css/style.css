@@ -630,8 +630,10 @@ body {
 }
 
 .footer h2 {
-    color: #fff;
+  margin-bottom: 2rem;
+  color: #ffffff;
 }
+
 .footer__container{
     display: flex;
     justify-content: space-between;
@@ -881,6 +883,11 @@ body {
         flex: 1;
     }
 
+    .footer h2 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+    }
+
 }
 
 @media (max-width:600px){
@@ -967,7 +974,13 @@ body {
     .footer__submit{
         margin-right: auto;
         margin-left: 0;
+
+
         
+        .footer h2 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
 
         /* 
         margin:0;
