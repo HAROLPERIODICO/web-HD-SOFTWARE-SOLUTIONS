@@ -629,7 +629,9 @@ body {
     color: #fff;
 }
 
-
+.footer h2 {
+    color: #fff;
+}
 .footer__container{
     display: flex;
     justify-content: space-between;
